@@ -11,17 +11,14 @@ A custom Flutter class for handling responsive design in your Flutter applicatio
 ## Getting Started
 
 * Create global key 
-
- - GlobalKey<NavigatorState> navKey = GlobalKey<NavigatorState>();
+- **GlobalKey<NavigatorState> navKey = GlobalKey<NavigatorState>();
 
 * Usage global key
-
-  - Widget build(BuildContext context) {
+    - Widget build(BuildContext context) { 
     -   return MaterialApp(
     -     navigatorKey: navKey, <<< Add this line in MaterialApp >>>
     -   )
     - }
 
 * Import responsive_with_global_context.dart class
-
   - SizedBox(height : sized16())
