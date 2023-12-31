@@ -9,6 +9,7 @@ A custom Flutter class for handling responsive design in your Flutter applicatio
 - **Media Query Handling:** Leverages Flutter's `MediaQuery` to determine the device's screen size and adjust the layout accordingly.
 
 ## Getting Started
+- Create Flutter Project
 
 ## Create global key 
 - **GlobalKey<NavigatorState> navKey = GlobalKey<NavigatorState>();**
@@ -20,5 +21,7 @@ A custom Flutter class for handling responsive design in your Flutter applicatio
        )
      }
 
-## Import responsive_with_global_context.dart class
+## Import responsive_with_global_context.dart class on your project
+
+## Try it
   - SizedBox(height : sized16())
