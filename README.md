@@ -23,5 +23,10 @@ A custom Flutter class for handling responsive design in your Flutter applicatio
 
 ## Import responsive_with_global_context.dart class on your project
 
-## Try it
+## Try it 
+
+- ## By Function
   - SizedBox(height : sized16())
+ 
+- ## By Extension
+  - SizedBox(height : 16.h);
